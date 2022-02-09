@@ -1,0 +1,53 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(./bg.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: 0% 100%;
+  background-size: cover;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.marioPosition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 130px;
+}
+
+.marioJumped {
+  margin-bottom: 0px;
+}
+
+.marioJump {
+  margin-bottom: 200px;
+}
+
+.marioJumpedLeft {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  margin-bottom: 200px;
+}
+
+.marioLeft {
+  margin-bottom: 0;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.marioRight {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/*# sourceMappingURL=style.css.map */
