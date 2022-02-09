@@ -1,0 +1,245 @@
+@import "_variables";
+
+// HEADER
+.header {
+  .header-menu {
+    @media screen and (min-width: 768px) {
+      .header-menu-button {
+        background-color: $blueish;
+        border: 1px solid white;
+      }
+    }
+    background-color: $blueish;
+    color: $white;
+    padding: 7px;
+    align-items: center;
+  }
+  .bit-student {
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  .header-menu-button {
+    background-color: $greenish;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 11px;
+  }
+
+  .profile-picture {
+    @media screen and (min-width: 768px) {
+      padding-top: 100px;
+    }
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    img {
+      width: 200px;
+    }
+  }
+
+  .picture-and-titles {
+    background-color: $greenish;
+  }
+  .zvezda-bela {
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .crtica {
+      width: 60px;
+      height: 0;
+      border: 2px solid $white;
+      margin: 10px;
+    }
+  }
+
+  .title {
+    @media screen and (min-width: 768px) {
+      font-size: 60px;
+      font-weight: 700;
+    }
+    color: $white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .header-titles {
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    color: $white;
+    text-align: center;
+    padding: 0 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+// PORTFOLIO
+.portfolio {
+  .portfolio-pictures {
+    @media screen and (min-width: 1024px) {
+      
+    }
+  }
+  .zvezda-crna {
+    color: $blueish;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    .crtica {
+      width: 60px;
+      height: 0;
+      border: 2px solid $blueish;
+      margin: 10px;
+    }
+  }
+
+  .portfolio-title {
+    text-align: center;
+    color: $blueish;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .main-pictures img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+// ABOUT
+.about {
+  background-color: $greenish;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  .zvezda-bela {
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    .crtica {
+      width: 60px;
+      height: 0;
+      border: 2px solid $white;
+      margin: 10px;
+    }
+  }
+  .about-title {
+    text-align: center;
+    color: $white;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .about-text {
+    @media screen and (min-width: 768px) {
+      padding: 10px 80px;
+    }
+    color: $white;
+    padding: 10px;
+  }
+  .butt {
+    align-items: center;
+    text-align: center;
+  }
+  .button-about {
+    align-items: center;
+    text-align: center;
+    background-color: $greenish;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: $white;
+    margin-top: 5px;
+    padding: 5px 10px;
+  }
+}
+// CONTACT ME
+.contact {
+  .zvezda-crna {
+    color: $blueish;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    .crtica {
+      width: 60px;
+      height: 0;
+      border: 2px solid $blueish;
+      margin: 10px;
+    }
+  }
+  .contact-me {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    color: $blueish;
+  }
+  form input {
+    font-weight: 500;
+    padding: 25px 0;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(221, 217, 217);
+  }
+  form textarea {
+    font-weight: 500;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(221, 217, 217);
+  }
+  .button-send {
+    background-color: $greenish;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: $white;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+}
+
+// FOOTER
+.footer {
+  background-color: $blueish;
+  color: $white;
+  text-align: center;
+  .footer-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 25px 0;
+  }
+  .footer-conclusion {
+    .bootstrap-thanks {
+      color: grey;
+      font-size: 10px;
+      padding-bottom: 20px;
+    }
+
+    padding-top: 80px;
+  }
+  .footer-belive {
+    padding: 0 15px;
+  }
+}
